@@ -1,6 +1,6 @@
 [package]
 name = "bevy"
-version = "0.5.0"
+version = "0.6.0-pre-release.1"
 edition = "2018"
 categories = ["game-engines", "graphics", "gui", "rendering"]
 description = "A refreshingly simple data-driven game engine and app framework"
@@ -84,8 +84,8 @@ subpixel_glyph_atlas = ["bevy_internal/subpixel_glyph_atlas"]
 bevy_ci_testing = ["bevy_internal/bevy_ci_testing"]
 
 [dependencies]
-bevy_dylib = { path = "crates/bevy_dylib", version = "0.5.0", default-features = false, optional = true }
-bevy_internal = { path = "crates/bevy_internal", version = "0.5.0", default-features = false }
+bevy_dylib = { path = "crates/bevy_dylib", version = "0.6.0-pre-release.1", default-features = false, optional = true }
+bevy_internal = { path = "crates/bevy_internal", version = "0.6.0-pre-release.1", default-features = false }
 
 [dev-dependencies]
 anyhow = "1.0.4"
